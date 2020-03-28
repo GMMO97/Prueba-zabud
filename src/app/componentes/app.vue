@@ -39,7 +39,7 @@
                 </div>
 
                 <template v-if="edit === false ">
-                  <button class="btn btn-success form-control">Resgistrar</button>
+                  <button class="btn btn-success form-control">Registrar</button>
                 </template>
                 <template v-else>
                   <button class="btn btn-success form-control">Actualizar</button>
