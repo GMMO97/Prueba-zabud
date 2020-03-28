@@ -1,0 +1,32 @@
+{
+  "name": "crud-prueba",
+  "version": "1.0.0",
+  "description": "Rest Api con node js",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "Api",
+    "Rest",
+    "Servicios"
+  ],
+  "author": "Gabriel Mateo Munñoz Ortega",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "vue-loader": "^15.9.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
